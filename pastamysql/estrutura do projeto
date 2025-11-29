@@ -1,1 +1,15 @@
+product-catalog/
+│
+├─ app/
+│  ├─ main.py
+│  ├─ db.py
+│  ├─ routes.py
+│  ├─ config.py
+│  ├─ requirements.txt
+│  ├─ Dockerfile
+│
+├─ docker-compose.yml
+├─ init-db/
+│  └─ schema.sql
+└─ README.md
 
