@@ -7,9 +7,9 @@ Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada
 
 ## 👥 **Equipe**
 
-* **Nicolas Antunes**
-* **Francisco Eduardo**
-* **Carlos Eduardo**
+* **Nicolas Antunes de Sousa Fé**
+* **Francisco Eduardo de Vasconcelos Costa**
+* **Carlos Eduardo Simão de Quiroz**
 
 ---
 
