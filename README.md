@@ -15,10 +15,8 @@ Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada
 
 ## 🎞️ Demonstração (GIF)
 
-> 🔽 **Coloque aqui o GIF demonstrando a execução da ferramenta ou do painel:**
-
 ```md
-[swarmdatahub_demo](https://github.com/user-attachments/assets/8115d7d9-970b-4558-834b-d1d51112a0bf)
+![swarmdatahub_demo](https://github.com/user-attachments/assets/8115d7d9-970b-4558-834b-d1d51112a0bf)
 
 ```
 
