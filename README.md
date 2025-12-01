@@ -1,11 +1,15 @@
+Perfeito — agora entendi exatamente o que você quer.
+Vou **refazer totalmente o README**, removendo o tema de abelhas e criando um texto **100% alinhado ao conteúdo que você está estudando**: Docker, Containers, Imagens, Docker Compose e Docker Swarm.
+
+Aqui está o **README totalmente refeito**, profissional e coerente:
 
 ---
 
-# 🐋 SwarmDataHub — Final Project (Docker)
+# 🐳 SwarmDataHub — Final Project (Docker)
 
-Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada usando **Docker** 
+Este repositório contém um projeto final desenvolvido utilizando **Docker**, **Docker Compose** e conceitos de **containers**, com foco na criação, gerenciamento e orquestração de aplicações em ambientes isolados e portáveis.
 
-## 👥 **Equipe**
+## 👥 Equipe
 
 * **Nicolas Antunes de Sousa Fé**
 * **Francisco Eduardo de Vasconcelos Costa**
@@ -13,54 +17,119 @@ Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada
 
 ---
 
-## 🎞️ Demonstração
+## 🎞️ Demonstração (GIF)
 
-![Demonstração do SwarmDataHub](https://github.com/user-attachments/assets/8115d7d9-970b-4558-834b-d1d51112a0bf)
+> Prévia da execução ou inicialização dos containers:
 
----
-
-## 📌 **Descrição do Projeto**
-
-O **SwarmDataHub** tem como objetivo centralizar, processar e exibir dados provenientes de sensores de abelhas e colmeias, garantindo facilidade de implantação através do uso de containers Docker.
-
-O projeto permite:
-
-* Execução com **Docker Compose**
-* Separação clara entre serviços:
-
-  * Backend
-  * Banco de dados
-  * Interface de visualização
-* Portabilidade total do ambiente com apenas um comando
+![Demonstração do Projeto](https://github.com/user-attachments/assets/8115d7d9-970b-4558-834b-d1d51112a0bf)
 
 ---
 
-## 🏗️ **Arquitetura**
+# 📌 Introdução ao Projeto
 
-A solução é composta por múltiplos serviços Docker que trabalham juntos:
+Este projeto foi desenvolvido para demonstrar, na prática, o uso de tecnologias modernas de containerização e orquestração. Ele envolve a construção e execução de serviços utilizando:
 
-* **Backend API** — lógica de negócio e rotas
-* **Banco de Dados** — persistência dos dados coletados
-* **Frontend/Visualization** — interface para análise dos dados
+* **Docker**
+* **Docker Containers**
+* **Docker Images**
+* **Docker Compose**
+* **Docker Swarm**
 
-Tudo isso orquestrado pelo **docker-compose.yml**.
+A seguir está um resumo dos conceitos aplicados no projeto.
 
 ---
 
-## 🚀 **Como Executar o Projeto**
+# 🧱 Conceitos Fundamentais Utilizados
 
-### 🔧 Requisitos
+## 🐳 **Docker**
 
-* **Docker** instalado
-* **Docker Compose** instalado
+Plataforma de código aberto que automatiza o *deployment* de aplicações dentro de **containers de software**.
+Permite empacotar, distribuir e executar aplicações de maneira consistente em qualquer ambiente.
 
-### ▶️ Rodando
+---
+
+## 📦 **Containers Docker**
+
+Unidades padronizadas de software que incluem:
+
+* Código da aplicação
+* Bibliotecas
+* Dependências
+* Configurações
+
+Eles compartilham o **kernel do sistema operacional**, mas isolam seus processos e recursos.
+
+Características:
+
+* Leves
+* Portáteis
+* Consistentes entre ambientes
+* Rápidos para iniciar e destruir
+
+---
+
+## 🧩 **Imagens Docker**
+
+Templates que são usados para criar containers.
+
+Uma imagem contém tudo que a aplicação precisa:
+
+* Código
+* Runtime
+* Bibliotecas
+* Dependências
+
+As imagens podem ser armazenadas, versionadas, reutilizadas e compartilhadas em repositórios como Docker Hub ou GitHub Packages.
+
+---
+
+## 🧬 **Docker Compose**
+
+Ferramenta usada para gerenciar aplicações **multi-container**.
+
+Através de um arquivo **YAML (`docker-compose.yml`)**, você define:
+
+* Serviços
+* Redes
+* Volumes
+* Dependências
+* Porta de acesso
+
+Isso facilita a criação de ambientes completos com apenas um comando:
 
 ```bash
 docker compose up -d
 ```
 
-Para parar os containers:
+---
+
+## 🌐 **Docker Swarm**
+
+Ferramenta de **orquestração** nativa do Docker que permite:
+
+* Criar clusters de múltiplas máquinas
+* Distribuir containers entre os nós
+* Escalar automaticamente a aplicação
+* Gerenciar serviços de forma coordenada
+
+Ele transforma vários hosts Docker em um **único cluster lógico**.
+
+---
+
+# 🚀 Como Executar o Projeto
+
+### **1. Certifique-se de ter instalado:**
+
+* Docker
+* Docker Compose
+
+### **2. No diretório do projeto, execute:**
+
+```bash
+docker compose up -d
+```
+
+### **3. Para parar os serviços:**
 
 ```bash
 docker compose down
@@ -68,39 +137,38 @@ docker compose down
 
 ---
 
-## 📂 **Estrutura do Repositório**
+# 📂 Estrutura do Repositório
 
 ```
 SwarmDataHub_-Final-project_Docker/
 │
-├── backend/          # Código-fonte da API
-├── frontend/         # Interface de visualização
-├── db/               # Scripts e configs do banco
+├── backend/          
+├── frontend/         
+├── db/               
 ├── docker-compose.yml
 └── README.md
 ```
 
 ---
 
-## 🐞 **Problemas Conhecidos**
+# 🐞 Problemas Conhecidos
 
-* Após remover uma abelha, o sensor pode continuar associado a ela
-* A busca por nome **é sensível a maiúsculas/minúsculas**, ou seja:
-
-  * “abelha” ≠ “Abelha” ≠ “ABELHA”
-
----
-
-## 📌 **Melhorias Futuras**
-
-* Busca case-insensitive
-* Dashboard em tempo real
-* Logs centralizados
-* Validação mais robusta na API
+* Busca sensível a maiúsculas/minúsculas
+* Relações que podem permanecer após remoção de entidades
+  (caso aplicável à lógica do projeto)
 
 ---
 
-## 🤝 Contribuição
+# 📌 Melhorias Futuras
+
+* Implementar busca case-insensitive
+* Adicionar monitoramento em tempo real
+* Criar logs centralizados
+* Melhorias na padronização das imagens e build
+
+---
+
+# 🤝 Como Contribuir
 
 1. Faça um fork
 2. Crie um branch (`feature/nova-feature`)
@@ -108,16 +176,10 @@ SwarmDataHub_-Final-project_Docker/
 
 ---
 
-## 📜 Licença
-
-Projeto acadêmico desenvolvido pela equipe mencionada acima.
-
----
-
 Se quiser, posso também:
 
-✨ Criar um **banner gráfico** para o topo
-✨ Criar **badges** (Docker, Python, status, versão)
-✨ Gerar um GIF mais sofisticado (animado em loop suave, com efeitos)
+🔹 Criar um banner para colocar no topo
+🔹 Criar um GIF mais bonito (mais suave, com animação moderna)
+🔹 Gerar badges de linguagens, Docker, versão, etc.
 
-Só pedir!
+Quer alguma dessas melhorias?
