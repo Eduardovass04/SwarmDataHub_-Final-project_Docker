@@ -1,7 +1,3 @@
-Perfeito — agora entendi exatamente o que você quer.
-Vou **refazer totalmente o README**, removendo o tema de abelhas e criando um texto **100% alinhado ao conteúdo que você está estudando**: Docker, Containers, Imagens, Docker Compose e Docker Swarm.
-
-Aqui está o **README totalmente refeito**, profissional e coerente:
 
 ---
 
@@ -175,8 +171,6 @@ SwarmDataHub_-Final-project_Docker/
 3. Envie um Pull Request
 
 ---
-
-Se quiser, posso também:
 
 🔹 Criar um banner para colocar no topo
 🔹 Criar um GIF mais bonito (mais suave, com animação moderna)
