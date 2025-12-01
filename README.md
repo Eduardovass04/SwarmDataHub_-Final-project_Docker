@@ -3,7 +3,7 @@
 
 # 🐋 SwarmDataHub — Final Project (Docker)
 
-Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada usando **Docker** para monitoramento, armazenamento e visualização de dados relacionados a colmeias e sensores ambientais.
+Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada usando **Docker** 
 
 ## 👥 **Equipe**
 
