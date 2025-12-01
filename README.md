@@ -1,6 +1,3 @@
-Aqui está o **README completamente arrumado**, com o GIF carregando corretamente e tudo formatado de forma limpa e profissional.
-
-Você pode copiar e colar diretamente no arquivo **README.md** do repositório.
 
 ---
 
@@ -16,7 +13,7 @@ Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada
 
 ---
 
-## 🎞️ Demonstração (GIF)
+## 🎞️ Demonstração
 
 ![Demonstração do SwarmDataHub](https://github.com/user-attachments/assets/8115d7d9-970b-4558-834b-d1d51112a0bf)
 
