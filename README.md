@@ -9,7 +9,7 @@ Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada
 
 * **Nicolas Antunes de Sousa Fé**
 * **Francisco Eduardo de Vasconcelos Costa**
-* **Carlos Eduardo Simão de Quiroz**
+* **Carlos Eduardo Simão de Queiroz**
 
 ---
 
