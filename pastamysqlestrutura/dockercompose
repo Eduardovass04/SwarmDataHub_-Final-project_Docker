@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    image: minha_imagem_final
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis_db
+
+  redis_db:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+
