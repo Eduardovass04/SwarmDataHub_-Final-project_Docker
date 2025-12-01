@@ -1,5 +1,8 @@
-# SwarmDataHub_Final-project_Docker
+Aqui está o **README completamente arrumado**, com o GIF carregando corretamente e tudo formatado de forma limpa e profissional.
 
+Você pode copiar e colar diretamente no arquivo **README.md** do repositório.
+
+---
 
 # 🐝 SwarmDataHub — Final Project (Docker)
 
@@ -15,11 +18,7 @@ Repositório destinado ao projeto **SwarmDataHub**, uma solução containerizada
 
 ## 🎞️ Demonstração (GIF)
 
-```md
-![swarmdatahub_demo](https://github.com/user-attachments/assets/8115d7d9-970b-4558-834b-d1d51112a0bf)
-
-```
-
+![Demonstração do SwarmDataHub](https://github.com/user-attachments/assets/8115d7d9-970b-4558-834b-d1d51112a0bf)
 
 ---
 
@@ -43,9 +42,9 @@ O projeto permite:
 
 A solução é composta por múltiplos serviços Docker que trabalham juntos:
 
-* **Backend API** — lógica de negócio e rotas.
-* **Banco de Dados** — persistência dos dados coletados.
-* **Frontend/Visualization** — interface para análise dos dados.
+* **Backend API** — lógica de negócio e rotas
+* **Banco de Dados** — persistência dos dados coletados
+* **Frontend/Visualization** — interface para análise dos dados
 
 Tudo isso orquestrado pelo **docker-compose.yml**.
 
@@ -64,7 +63,7 @@ Tudo isso orquestrado pelo **docker-compose.yml**.
 docker compose up -d
 ```
 
-Parando os containers:
+Para parar os containers:
 
 ```bash
 docker compose down
@@ -88,8 +87,8 @@ SwarmDataHub_-Final-project_Docker/
 
 ## 🐞 **Problemas Conhecidos**
 
-* Após remover uma abelha, o sensor pode continuar associado a ela.
-* A busca por nome **é sensível a maiúsculas/minúsculas**
+* Após remover uma abelha, o sensor pode continuar associado a ela
+* A busca por nome **é sensível a maiúsculas/minúsculas**, ou seja:
 
   * “abelha” ≠ “Abelha” ≠ “ABELHA”
 
@@ -118,4 +117,10 @@ Projeto acadêmico desenvolvido pela equipe mencionada acima.
 
 ---
 
+Se quiser, posso também:
 
+✨ Criar um **banner gráfico** para o topo
+✨ Criar **badges** (Docker, Python, status, versão)
+✨ Gerar um GIF mais sofisticado (animado em loop suave, com efeitos)
+
+Só pedir!
