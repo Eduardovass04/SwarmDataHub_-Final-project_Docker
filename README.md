@@ -170,10 +170,3 @@ SwarmDataHub_-Final-project_Docker/
 2. Crie um branch (`feature/nova-feature`)
 3. Envie um Pull Request
 
----
-
-🔹 Criar um banner para colocar no topo
-🔹 Criar um GIF mais bonito (mais suave, com animação moderna)
-🔹 Gerar badges de linguagens, Docker, versão, etc.
-
-Quer alguma dessas melhorias?
