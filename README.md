@@ -28,6 +28,14 @@ Este projeto foi desenvolvido para demonstrar, na prática, o uso de tecnologias
 * **Docker**
 * **Docker Containers**
 * **Docker Images**
+* <img width="1247" height="388" alt="Captura de tela 2025-12-03 203827" src="https://github.com/user-attachments/assets/0ff070ab-046d-4b2e-91be-cbd4c3bc9496" />
+---
+* <img width="726" height="272" alt="Captura de tela 2025-12-03 203832" src="https://github.com/user-attachments/assets/62c0b0ca-c555-43f7-b594-cc4159eac832" />
+---
+* <img width="1094" height="411" alt="Captura de tela 2025-12-03 203838" src="https://github.com/user-attachments/assets/0a71ea1b-f92b-4204-8c9d-397669c02de4" />
+---
+
+
 * **Docker Compose**
 * **Docker Swarm**
 
