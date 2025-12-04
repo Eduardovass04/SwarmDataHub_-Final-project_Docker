@@ -157,24 +157,11 @@ SwarmDataHub_-Final-project_Docker/
 
 # 🐞 Problemas Conhecidos
 
-* Busca sensível a maiúsculas/minúsculas
+* Busca sensível a maiúsculas/minúsculas principalmente se for no powershell
 * Relações que podem permanecer após remoção de entidades
   (caso aplicável à lógica do projeto)
 
 ---
 
-# 📌 Melhorias Futuras
 
-* Implementar busca case-insensitive
-* Adicionar monitoramento em tempo real
-* Criar logs centralizados
-* Melhorias na padronização das imagens e build
-
----
-
-# 🤝 Como Contribuir
-
-1. Faça um fork
-2. Crie um branch (`feature/nova-feature`)
-3. Envie um Pull Request
 
