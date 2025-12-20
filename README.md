@@ -43,7 +43,7 @@ A seguir está um resumo dos conceitos aplicados no projeto.
 
 ---
 
-# 🧱 Conceitos Fundamentais Utilizados
+# Conceitos Fundamentais Utilizados
 
 ## 🐳 **Docker**
 
@@ -52,7 +52,7 @@ Permite empacotar, distribuir e executar aplicações de maneira consistente em 
 
 ---
 
-## 📦 **Containers Docker**
+##  **Containers Docker**
 
 Unidades padronizadas de software que incluem:
 
@@ -72,7 +72,7 @@ Características:
 
 ---
 
-## 🧩 **Imagens Docker**
+##  **Imagens Docker**
 
 Templates que são usados para criar containers.
 
@@ -87,7 +87,7 @@ As imagens podem ser armazenadas, versionadas, reutilizadas e compartilhadas em 
 
 ---
 
-## 🧬 **Docker Compose**
+##  **Docker Compose**
 
 Ferramenta usada para gerenciar aplicações **multi-container**.
 
@@ -107,7 +107,7 @@ docker compose up -d
 
 ---
 
-## 🌐 **Docker Swarm**
+##  **Docker Swarm**
 
 Ferramenta de **orquestração** nativa do Docker que permite:
 
@@ -120,7 +120,7 @@ Ele transforma vários hosts Docker em um **único cluster lógico**.
 
 ---
 
-# 🚀 Como Executar o Projeto
+#  Como Executar o Projeto
 
 ### **1. Certifique-se de ter instalado:**
 
@@ -155,7 +155,7 @@ SwarmDataHub_-Final-project_Docker/
 
 ---
 
-# 🐞 Problemas Conhecidos
+#  Problemas Conhecidos
 
 * Busca sensível a maiúsculas/minúsculas principalmente se for no powershell
 * Relações que podem permanecer após remoção de entidades
